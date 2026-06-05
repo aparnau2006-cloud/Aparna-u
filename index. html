@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aparna U - Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 12px 0;
+        }
+
+        .skill-bar {
+            background-color: #ddd;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            height: 20px;
+            background-color: #3498db;
+            text-align: right;
+            color: white;
+            padding-right: 8px;
+            line-height: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Replace profile.jpg with your own photo -->
+        <img src="profile.jpg" alt="Aparna U" class="profile-img">
+
+        <h1>Aparna U</h1>
+
+        <p>BCA Student | Aspiring Software Professional</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Aparna U, a Bachelor of Computer Applications (BCA) student
+            at Yuvakshetra Institute of Management Studies. I am passionate about
+            technology, programming, web development, and data analysis. I completed
+            my internship at IIT Palakkad, where I gained valuable practical exposure
+            and technical experience.
+        </p>
+    </section>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>
+            To build a successful career in the field of Information Technology by
+            applying my technical knowledge, problem-solving skills, and creativity
+            while continuously learning and contributing to innovative projects.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>
+            <strong>Bachelor of Computer Applications (BCA)</strong><br>
+            Yuvakshetra Institute of Management Studies
+        </p>
+    </section>
+
+    <section>
+        <h2>Internship</h2>
+        <p>
+            <strong>IIT Palakkad</strong><br>
+            Successfully completed internship and gained practical experience in
+            technology and project-based learning.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+
+        <ul>
+            <li>
+                C Programming
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:85%;">85%</div>
+                </div>
+            </li>
+
+            <li>
+                Python
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:80%;">80%</div>
+                </div>
+            </li>
+
+            <li>
+                Java
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:75%;">75%</div>
+                </div>
+            </li>
+
+            <li>
+                Web Development
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:85%;">85%</div>
+                </div>
+            </li>
+
+            <li>
+                Networking
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:70%;">70%</div>
+                </div>
+            </li>
+
+            <li>
+                Data Analysis
+                <div class="skill-bar">
+                    <div class="skill-level" style="width:75%;">75%</div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:aparnau2006@gmail.com">aparnau2006@gmail.com</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Aparna U | Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
